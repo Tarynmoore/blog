@@ -1,0 +1,25 @@
+{
+ 
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "create a blog for coding",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.21.3"
+  }
+}
